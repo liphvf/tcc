@@ -1,4 +1,4 @@
-package com.example.tcckotlin.myapplication
+package com.exemplo.liphvf.aposentadoriacalc
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.example.tcckotlin.myapplication", appContext.packageName)
+        assertEquals("com.exemplo.liphvf.aposentadoriacalc", appContext.packageName)
     }
 }
