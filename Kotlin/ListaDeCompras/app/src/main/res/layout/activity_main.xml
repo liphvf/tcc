@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:padding="8dp">
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="Novo item"
+                  android:id="@+id/txt_novoitem"/>
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adicionar"
+                android:id="@+id/btn_adicionar"/>
+
+
+    <ListView android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:id="@+id/lista_de_compras"></ListView>
+
+
+
+</LinearLayout>
